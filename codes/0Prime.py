@@ -2,7 +2,7 @@ def prime(n):
     p = 0
     for i in range(1,n+1):
         if n%i == 0:
-            p = p+1
+            p += 1
     return p
 
 
@@ -17,7 +17,7 @@ if __name__ == "__main__":
         if p == 2:
             print(count+1,"->",i,"is prime ")
             count += 1
-        i = i + 1
+        i += 1
 
 
 
