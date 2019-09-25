@@ -2,6 +2,7 @@ def gcd(a,b):
     # choose the least number
     if a > b:
         least = b
+        
     else:
         least = a
     for i in range(1, least + 1):
