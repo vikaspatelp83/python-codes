@@ -11,4 +11,6 @@ def gcd(a,b):
     return gcd
 
 
-print(gcd(11,22))
+if __name__ == "__main__":
+    a , b = map(int,input("enter numbers(seoparate by space) : ").split(" "))
+    print(gcd(a,b))
