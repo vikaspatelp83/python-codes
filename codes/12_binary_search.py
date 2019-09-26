@@ -14,8 +14,11 @@ def Binary_search(arr, start_index, last_index, element):
     return -1
 
 
+# # arr = list(map(int,input("enter numbers :").split()))   # use this for manual data input
+# element = int(input("enter number:"))
+
 arr = [2, 14, 19, 21, 99, 210, 512, 1028, 4443, 5110]
-element = 4443
+element = 14
 start_index = 0
 last_index = len(arr) - 1
 found = Binary_search(arr, start_index, last_index, element)
@@ -24,6 +27,4 @@ if found == -1:
 else:
     print("element is present at index " + str(found))
 
-A = list(map(int,input("enter numbers :").split()))
-print(A)
-term = int(input("enter number:"))
+
